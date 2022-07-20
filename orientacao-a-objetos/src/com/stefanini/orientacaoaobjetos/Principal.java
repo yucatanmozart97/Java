@@ -3,22 +3,25 @@ package com.stefanini.orientacaoaobjetos;
 public class Principal {
 
 	public static void main(String[] args){
-		Carro bmw = new Carro();
+	/*	Carro bmw = new Carro();
 		bmw.setMarca("bmw");
 		bmw.setModelo("m3");
 		bmw.setQuilometrosPorLitro(7.5);
 		//bmw.taxaAceleracao = 50;
-		try {
+*/		/*try {
 			bmw.setVelocidadeMaxima(280);
 			} catch(NegocioException e) {
 				System.out.println(e);
 			} finally {
 				System.out.println("bmw Velocidade");
 			}
-		
+		*/
 		BMW bmwDois = new BMW();
+		bmwDois.piscarAlertar();
+		
 		Tesla tesla = new Tesla();
 		tesla.isDirigeSozinho();
+		tesla.piscarAlertar();
 		
 		try {
 		bmwDois.setVelocidadeMaxima(10);

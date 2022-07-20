@@ -22,4 +22,10 @@ public class Tesla extends Carro {
 		this.dirigeSozinho = dirigeSozinho;
 	}
 	
+	@Override
+	public void piscarAlertar() {
+		System.out.println("Tesla piscando alerta...");
+		
+	}
+	
 }
